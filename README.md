@@ -32,6 +32,89 @@ Download the `crystal-ui.css` file from this repository and include it in your H
 - 🌓 **Theming** - Built-in light and dark theme support
 - 📱 **Responsive** - Mobile-first design
 
+## Component Examples
+
+Here are some basic examples of Crystal UI components. All styles are included in `crystal-ui.css`.
+
+### Button
+
+```html
+<button class="cui-btn cui-btn--primary">Button</button>
+<button class="cui-btn cui-btn--outline">Outline</button>
+<button class="cui-btn cui-btn--ghost">Ghost</button>
+<button class="cui-btn cui-btn--link">Link</button>
+```
+
+### Input
+
+```html
+<div class="cui-input-field">
+  <label class="cui-label" for="email">Email</label>
+  <input type="email" id="email" class="cui-input" placeholder="name@example.com" />
+</div>
+```
+
+### Badge
+
+```html
+<div class="cui-badge">Badge</div>
+<div class="cui-badge cui-badge--secondary">Secondary</div>
+<div class="cui-badge cui-badge--destructive">Destructive</div>
+<div class="cui-badge cui-badge--outline">Outline</div>
+```
+
+### Switch
+
+```html
+<label class="cui-switch-label">
+  <input type="checkbox" class="cui-switch-input" />
+  <span class="cui-switch">
+    <span class="cui-switch-thumb"></span>
+  </span>
+  <span class="cui-switch-text">Airplane Mode</span>
+</label>
+```
+
+### Card
+
+```html
+<div class="cui-card">
+  <div class="cui-card-header">
+    <h3 class="cui-card-title">Card Title</h3>
+    <p class="cui-card-description">Card description goes here.</p>
+  </div>
+  <div class="cui-card-content">
+    <p>Your content here.</p>
+  </div>
+  <div class="cui-card-footer">
+    <button class="cui-btn cui-btn--primary">Action</button>
+  </div>
+</div>
+```
+
+### Table
+
+```html
+<div class="cui-table-container">
+  <table class="cui-table-base">
+    <thead>
+      <tr>
+        <th class="cui-table-base-header">Invoice</th>
+        <th class="cui-table-base-header">Status</th>
+        <th class="cui-table-base-header cui-table-base-header--right">Amount</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="cui-table-base-cell">INV001</td>
+        <td class="cui-table-base-cell">Paid</td>
+        <td class="cui-table-base-cell cui-table-base-cell--right">$250.00</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+```
+
 ## Components
 
 - Accordion
