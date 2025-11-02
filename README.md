@@ -4,17 +4,10 @@ Lightweight CSS library for building modern web interfaces with pure HTML and CS
 
 ## Installation
 
-Include the CSS file in your HTML:
+Download the `crystal-ui.css` file from this repository and include it in your HTML:
 
 ```html
-<link rel="stylesheet" href="https://crystal-ui.com/v1/crystal-ui.css" />
-```
-
-Or download it locally:
-
-```bash
-# Download from CDN
-curl -o crystal-ui.css https://crystal-ui.com/v1/crystal-ui.css
+<link rel="stylesheet" href="crystal-ui.css" />
 ```
 
 ## Quick Start
@@ -23,7 +16,7 @@ curl -o crystal-ui.css https://crystal-ui.com/v1/crystal-ui.css
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="https://crystal-ui.com/v1/crystal-ui.css" />
+    <link rel="stylesheet" href="crystal-ui.css" />
   </head>
   <body>
     <button class="cui-btn cui-btn--primary">Click me</button>
@@ -75,7 +68,19 @@ curl -o crystal-ui.css https://crystal-ui.com/v1/crystal-ui.css
 
 ## Documentation
 
-Visit [https://crystal-ui.com](https://crystal-ui.com) for complete documentation, examples, and guides.
+To view the complete documentation, examples, and guides:
+
+1. Download the `React-App-Documentation` folder from this repository
+2. Navigate to the `React-App-Documentation` directory
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+4. Start the development server:
+   ```bash
+   npm run dev
+   ```
+5. Open your browser and visit the local development URL (usually `http://localhost:5173`)
 
 ## Browser Support
 
@@ -104,4 +109,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
