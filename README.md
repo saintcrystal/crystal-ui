@@ -2,6 +2,8 @@
 
 Lightweight CSS library for building modern web interfaces with pure HTML and CSS. No React or JavaScript framework required.
 
+**📖 [View Documentation](https://crystal-ui.com/)**
+
 ## Installation
 
 Download the `crystal-ui.css` file from this repository and include it in your HTML:
